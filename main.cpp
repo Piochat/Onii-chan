@@ -22,7 +22,7 @@ int main()
 	sf::Font font;
 	if (!font.loadFromFile("resource/fonts/mplus-1mn-regular.ttf"))
 		return EXIT_FAILURE;
-	sf::Text text("Yamete Kudasai", font, 50);
+	sf::Text text("Yamete\n Kudasai", font, 50);
 
 	// Load a sound to play 
 	sf::Music music;
