@@ -11,7 +11,7 @@ $(TARGET): $(FILE)
 	$(CC) -c $(FILE) -o $(LIB)
 
 compile: dev 
-	$(CC) $(SMLF_FLAGS) $(LIBR) $(LIB) -o $(TARGET)
+	$(CC) $(LIB) -o $(TARGET) $(SMLF_FLAGS)
 
 clean:
 	rm -fr $(TARGET) 
